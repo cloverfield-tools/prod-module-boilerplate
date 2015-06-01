@@ -1,0 +1,29 @@
+{
+  "name": "{{ packageName }}",
+  "description": "{{ packageDescription }}",
+  "main": "build/index.js",
+  "scripts": {
+    "clean": "rimraf build && mkdir build",
+    "lint": "eslint source && eslint test",
+    "prebuild": "npm run clean",
+    "build": "babel -d build source -s",
+    "test": "node build/test/index.js",
+    "prepublish": "npm run build",
+    "validate": "npm run lint && npm run build && npm test",
+    "audit": "nsp package",
+    "extra": "npm list > /dev/null",
+    "precheck": "npm run validate",
+    "check": "npm run audit && npm extra && npm outdated --depth 0"
+  },
+  "pre-commit": [
+    "check"
+  ],
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "eslint": "^0.22.1",
+    "faucet": "0.0.1",
+    "pre-commit": "^1.0.7",
+    "rimraf": "^2.3.4",
+    "tape": "^4.0.0"
+  }
+}
