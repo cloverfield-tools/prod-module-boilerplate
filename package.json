@@ -3,6 +3,7 @@
   "description": "{{ packageDescription }}",
   "main": "build/index.js",
   "scripts": {
+    "init": "rimraf .validate.json && rimraf .jshintrc",
     "clean": "rimraf build && mkdir -p build/test",
     "lint": "eslint source && eslint test",
     "prebuild": "npm run clean",
@@ -17,7 +18,8 @@
     "ok": "echo 'OK if the dependencies above are all devDependencies.' && echo 'Clean up any unused dependencies.'",
     "deps": "npm run missing && npm run extra && npm run ok",
     "precheck": "npm run validate",
-    "check": "npm run audit && npm run deps && npm outdated --depth 0"
+    "check": "npm run audit && npm run deps && npm outdated --depth 0",
+    "precommit": "pre-commit run"
   },
   "pre-commit": [
     "check"
