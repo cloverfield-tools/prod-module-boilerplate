@@ -3,10 +3,10 @@
   "description": "{{ packageDescription }}",
   "main": "build/index.js",
   "scripts": {
-    "clean": "rimraf build && mkdir build",
+    "clean": "rimraf build && mkdir -p build/test",
     "lint": "eslint source && eslint test",
     "prebuild": "npm run clean",
-    "build": "babel -d build source -s",
+    "build": "babel -d build source -s && babel -d build/test test",
     "test": "node build/test/index.js",
     "prepublish": "npm run build",
     "validate": "npm run lint && npm run build && npm test",
@@ -20,10 +20,11 @@
   ],
   "devDependencies": {
     "babel": "^5.4.7",
+    "babel-eslint": "^3.1.9",
     "eslint": "^0.22.1",
     "faucet": "0.0.1",
     "pre-commit": "^1.0.7",
     "rimraf": "^2.3.4",
     "tape": "^4.0.0"
-  }
+  },
 }
