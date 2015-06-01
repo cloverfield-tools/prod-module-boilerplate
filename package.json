@@ -11,9 +11,11 @@
     "prepublish": "npm run build",
     "validate": "npm run lint && npm run build && npm test",
     "audit": "nsp package",
-    "extra": "npm list > /dev/null",
+    "missing": "dependency-check package.json",
+    "extra": "dependency-check package.json --extra",
+    "deps": "npm run missing && npm run extra",
     "precheck": "npm run validate",
-    "check": "npm run audit && npm extra && npm outdated --depth 0"
+    "check": "npm run audit && npm run deps && npm outdated --depth 0"
   },
   "pre-commit": [
     "check"
@@ -21,6 +23,7 @@
   "devDependencies": {
     "babel": "^5.4.7",
     "babel-eslint": "^3.1.9",
+    "dependency-check": "^2.4.0",
     "eslint": "^0.22.1",
     "faucet": "0.0.1",
     "nsp": "^1.0.1",
