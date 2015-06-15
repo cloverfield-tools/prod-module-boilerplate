@@ -3,3 +3,4 @@ build
 .validate.json
 .jshintrc
 .jshintignore
+coverage
