@@ -20,7 +20,11 @@ git commit -m 'Initial commit'
 
 ## Contributing
 
-### Clone the repo: 
+
+### Clone the repo
+
+* Click the GitHub fork button to create your own fork
+* Clone your fork of the repo to your dev system
 
 ```
 git clone git@github.com:ericelliott/prod-module-boilerplate.git
@@ -54,6 +58,16 @@ git commit -m '[Issue #<your-issue-number>'
 
 Please don't merge your own changes. Create a pull request so others can review the changes.
 
+**Push changes:**
+
+```
+git push origin <your-feature-branch>
+```
+
+* Open your repository fork on GitHub
+* You should see a button to create a pull request - Press it
+* Consider mentioning a contributor in your pull request comments to alert them that it's available for review
+* **Wait for the reviewer to approve and merge the request**
 
 ### PR Merge Exception
 
