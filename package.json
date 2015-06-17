@@ -1,5 +1,6 @@
 {
-  "description": "{{ packageDescription }}, add \"name\": \"{{ packageName }}\" above",
+  "name": "{{ packageName }}",
+  "description": "{{ packageDescription }}",
   "main": "build/index.js",
   "scripts": {
     "init": "rimraf .validate.json && rimraf .jshintrc",
