@@ -1,6 +1,3 @@
-'use strict';
-
-
 import hello from '../source/index';
 
 
