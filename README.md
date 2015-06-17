@@ -7,6 +7,6 @@ An npm scripts boilerplate for modules intended for production.
 * Make sure you comply with the [.editorconfig](http://editorconfig.org/)
 * Please use the pull request process to get eyes on changes prior to merge.
 
-### PR Merge Exceptions
+### PR Merge Exception
 
 * Minor documentation grammar/spelling fixes (code example changes should be reviewed)
