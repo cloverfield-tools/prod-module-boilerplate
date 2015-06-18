@@ -35,12 +35,13 @@ git clone git@github.com:ericelliott/prod-module-boilerplate.git
 
 ### Let us Know you're working on the issue
 
-If you're actively working on an issue, please comment in the issue thread stating that you're working on a fix, or (if you're an official contributor) assign it to yourself.
+If you're actively working on an issue, please comment in the issue thread
+stating that you're working on a fix, or (if you're an official contributor) assign it to yourself.
 
 This way, others will know they shouldn't try to work on a fix at the same time.
 
 
-### Create a feature branch: 
+### Create a feature branch:
 
 ```
 git checkout -b <your-branch-name>
@@ -66,7 +67,8 @@ git push origin <your-feature-branch>
 
 * Open your repository fork on GitHub
 * You should see a button to create a pull request - Press it
-* Consider mentioning a contributor in your pull request comments to alert them that it's available for review
+* Consider mentioning a contributor in your pull request comments to alert them
+  that it's available for review
 * **Wait for the reviewer to approve and merge the request**
 
 ### PR Merge Exception
@@ -89,4 +91,6 @@ $ git commit -m '[#5] Make sure to follow the PR process for contributions'
 * Link to the meta-issue from each bullet point issue
 * Check off the bullet list as items get completed
 
-Linking from the bullet point issues to the meta issue will create a list of issues with status indicators in the issue comments stream, which will give us a quick visual reference to see what's done and what still needs doing.
+Linking from the bullet point issues to the meta issue will create a list of issues
+with status indicators in the issue comments stream, which will give us a quick visual reference
+to see what's done and what still needs doing.
