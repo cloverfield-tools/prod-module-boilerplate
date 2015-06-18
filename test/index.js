@@ -1,7 +1,7 @@
 'use strict';
 
 import test from 'tape';
-import hello from '../index';
+import hello from '../source/index';
 
 
 test('Tests run', (assert) => {
