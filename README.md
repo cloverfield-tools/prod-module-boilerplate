@@ -17,6 +17,14 @@ git add .
 git commit -m 'Initial commit'
 ```
 
+## Features
+
+* ES6 with Babel
+* Tape tests with coverage report
+* Dependency security audits with nsp
+* Ensure dependencies are properly declared in package.json
+* Git precommit hook enforces quality checks on commit
+
 
 ## Contributing
 
