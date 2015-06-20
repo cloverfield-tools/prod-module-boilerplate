@@ -20,6 +20,7 @@ git commit -m 'Initial commit'
 ## Features
 
 * ES6 with Babel
+* Lint with ESLint
 * Tape tests with coverage report
 * Dependency security audits with nsp
 * Ensure dependencies are properly declared in package.json
