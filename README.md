@@ -2,7 +2,7 @@
 An npm `scripts` boilerplate for modules intended for production.
 
 
-## Getting started
+## Getting Started
 
 ### Clone the repo
 
@@ -22,6 +22,28 @@ git commit -m 'Initial commit'
 Open up `package.json`. At minimum, you'll need to customize the `name`, `description`, & `version` fields.
 
 
+### Configure your CI build
+
+This package comes with a `.travis.yml` file. You'll need to replace it with your own build config. If you want to continue using TravisCI and you don't see any problems with the config, replacing `.travis.yml` is optional. You still need to activate [Travis CI for your repository](http://docs.travis-ci.com/user/getting-started/).
+
+
+### Customize the README.md file
+
+Pop open README.md. Find this text: 
+
+```
+[![Travis-CI](https://travis-ci.org/ericelliott/prod-module-boilerplate.svg)](https://travis-ci.org/ericelliott/prod-module-boilerplate)
+```
+
+And replace it with your info:
+
+```
+[![Travis-CI](https://travis-ci.org/<your-github-name>/<your-github-repo-name>.svg)](https://travis-ci.org/<your-github-name>/<your-github-repo-name>)
+```
+
+You'll probably also want to replace the content of "Getting Started" & "Features", and ensure that you're refering to the correct repository in the "Contributing" document.
+
+
 ## Features
 
 * ES6 with Babel
@@ -30,6 +52,7 @@ Open up `package.json`. At minimum, you'll need to customize the `name`, `descri
 * Dependency security audits with nsp
 * Ensure dependencies are properly declared in package.json
 * Git precommit hook enforces quality checks on commit
+* Travis CI integration
 
 
 ## Contributing
