@@ -1,4 +1,4 @@
-# prod-module-boilerplate
+# prod-module-boilerplate [![Travis-CI](https://travis-ci.org/ericelliott/prod-module-boilerplate.svg)](https://travis-ci.org/ericelliott/prod-module-boilerplate)
 An npm `scripts` boilerplate for modules intended for production.
 
 
