@@ -17,6 +17,11 @@ git add .
 git commit -m 'Initial commit'
 ```
 
+### Customize package.json
+
+Open up `package.json`. At minimum, you'll need to customize the `name`, `description`, & `version` fields.
+
+
 ## Features
 
 * ES6 with Babel
