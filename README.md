@@ -2,6 +2,17 @@
 An npm `scripts` boilerplate for modules intended for production.
 
 
+## Features
+
+* ES6 with Babel
+* Lint with ESLint
+* Tape tests with coverage report
+* Dependency security audits with nsp
+* Ensure dependencies are properly declared in package.json
+* Git precommit hook enforces quality checks on commit
+* Travis CI integration
+
+
 ## Getting Started
 
 ### Clone the repo
@@ -42,17 +53,6 @@ And replace it with your info:
 ```
 
 You'll probably also want to replace the content of "Getting Started" & "Features", and ensure that you're refering to the correct repository in the "Contributing" document.
-
-
-## Features
-
-* ES6 with Babel
-* Lint with ESLint
-* Tape tests with coverage report
-* Dependency security audits with nsp
-* Ensure dependencies are properly declared in package.json
-* Git precommit hook enforces quality checks on commit
-* Travis CI integration
 
 
 ## Contributing
