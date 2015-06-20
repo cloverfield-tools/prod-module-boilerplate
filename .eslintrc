@@ -50,7 +50,7 @@
         "func-names": [0],
         "func-style": [0, "declaration"],
         "generator-star-spacing": [2, "after"],
-        "global-strict": [2, "always"],
+        "strict": 0,
         "guard-for-in": [0],
         "handle-callback-err": [0],
         "key-spacing": [2, { "beforeColon": false, "afterColon": true }],
