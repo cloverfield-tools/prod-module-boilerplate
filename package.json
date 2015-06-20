@@ -1,6 +1,6 @@
 {
-  "name": "{{ packageName }}",
-  "description": "{{ packageDescription }}",
+  "name": "packageName",
+  "description": "packageDescription",
   "main": "build/index.js",
   "scripts": {
     "init": "rimraf .validate.json && rimraf .jshintrc",
@@ -34,7 +34,7 @@
     "faucet": "0.0.1",
     "isparta": "^3.0.3",
     "nsp": "^1.0.1",
-    "precommit-hook": "^2.0.1",
+    "precommit-hook": "^3.0.0",
     "rimraf": "^2.4.0",
     "tape": "^4.0.0"
   }
