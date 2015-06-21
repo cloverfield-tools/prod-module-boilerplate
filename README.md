@@ -1,4 +1,7 @@
 # prod-module-boilerplate [![Travis-CI](https://travis-ci.org/ericelliott/prod-module-boilerplate.svg)](https://travis-ci.org/ericelliott/prod-module-boilerplate)
+
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/learn-javascript-courses/javascript-questions?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 An npm `scripts` boilerplate for modules intended for production.
 
 
@@ -40,7 +43,7 @@ This package comes with a `.travis.yml` file. You'll need to replace it with you
 
 ### Customize the README.md file
 
-Pop open README.md. Find this text: 
+Pop open README.md. Find this text:
 
 ```
 [![Travis-CI](https://travis-ci.org/ericelliott/prod-module-boilerplate.svg)](https://travis-ci.org/ericelliott/prod-module-boilerplate)
@@ -77,7 +80,7 @@ If you're actively working on an issue, please comment in the issue thread stati
 This way, others will know they shouldn't try to work on a fix at the same time.
 
 
-### Create a feature branch: 
+### Create a feature branch:
 
 ```
 git checkout -b <your-branch-name>
