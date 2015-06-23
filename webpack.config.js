@@ -1,13 +1,17 @@
 var webpack = require('webpack');
 var path = require('path');
 var env = process.env.NODE_ENV || 'development';
-
+var minify = process.env.MINIFY || false;
 
 var eslintLoader = {
   test: /\.js$/,
   loaders: ['eslint'],
   include: path.resolve('./source')
 };
+
+var uglifyPlugin = new webpack.optimize.UglifyJsPlugin({
+  sourceMap: true
+});
 
 
 module.exports = {
@@ -16,7 +20,7 @@ module.exports = {
   entry: './source/index.js',
 
   output: {
-    filename: 'index.js',
+    filename: minify ? 'index.min.js' : 'index.js',
     path: path.resolve('./build')
   },
 
@@ -26,7 +30,7 @@ module.exports = {
         NODE_ENV: '"' + env + '"'
       }
     })
-  ],
+  ].concat(minify ? [uglifyPlugin] : []),
 
   module: {
     preLoaders: env === 'development' ? [
