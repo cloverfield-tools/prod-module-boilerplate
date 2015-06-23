@@ -8,7 +8,8 @@
     "clean": "rimraf build",
     "lint": "eslint source && eslint test",
     "prebuild": "npm run clean",
-    "build": "babel -d build source -s",
+    "build": "NODE_ENV=production webpack",
+    "start": "webpack --watch",
     "test": "babel-node test/index.js",
     "cov": "npm run cov:clean && npm run cov:generate",
     "cov:clean": "rimraf coverage",
@@ -30,13 +31,18 @@
   "devDependencies": {
     "babel": "^5.5.8",
     "babel-eslint": "^3.1.15",
+    "babel-loader": "^5.1.4",
+    "babel-plugin-object-assign": "^1.1.0",
     "dependency-check": "^2.4.0",
     "eslint": "^0.23.0",
+    "eslint-loader": "^0.14.0",
     "faucet": "0.0.1",
     "isparta": "^3.0.3",
+    "node-libs-browser": "^0.5.2",
     "nsp": "^1.0.1",
     "precommit-hook": "^3.0.0",
     "rimraf": "^2.4.0",
-    "tape": "^4.0.0"
+    "tape": "^4.0.0",
+    "webpack": "^1.9.11"
   }
 }
