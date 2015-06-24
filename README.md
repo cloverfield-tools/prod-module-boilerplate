@@ -58,6 +58,30 @@ And replace it with your info:
 You'll probably also want to replace the content of "Getting Started" & "Features", and ensure that you're refering to the correct repository in the "Contributing" document.
 
 
+### Build your module
+
+1. For production
+
+  ```sh
+  npm run build
+  ```
+
+  It will run webpack once building full and minified versions of your lirary in `./build` with sourcemaps.
+
+
+2. For development
+
+  ```sh
+  npm start
+  ```
+
+  This will run `webpack` build in watch mode and will include ESLint checks on compile time.
+
+  ![webpack](https://cloud.githubusercontent.com/assets/175264/8304834/d66f7944-19ec-11e5-9feb-9f66caa5c593.gif)
+
+  **Note** minified version will not be build in dev mode.
+
+
 ## Contributing
 
 
