@@ -67,7 +67,7 @@ You'll probably also want to replace the content of "Getting Started" & "Feature
 * Clone your fork of the repo to your dev system
 
 ```
-git clone git@github.com:ericelliott/prod-module-boilerplate.git
+git clone git@github.com:<your-github-username>/prod-module-boilerplate.git
 ```
 
 ### If there's no issue, please create one
