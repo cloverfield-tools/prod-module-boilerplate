@@ -19,10 +19,9 @@
     "validate": "npm run lint && npm run build && npm test",
     "validate-dev": "npm run lint && npm run build && npm test | faucet",
     "audit": "nsp package",
-    "missing": "dependency-check package.json",
-    "extra": "dependency-check package.json --extra --ignore",
-    "ok": "echo 'OK if the dependencies above are all devDependencies.' && echo 'Clean up any unused dependencies.'",
-    "deps": "npm run missing && npm run extra && npm run ok",
+    "deps": "npm run deps:missing && npm run deps:extra",
+    "deps:missing": "dependency-check package.json",
+    "deps:extra": "dependency-check package.json --extra --no-dev --ignore",
     "precheck": "npm run validate",
     "check": "npm run audit && npm run deps && npm outdated --depth 0"
   },
