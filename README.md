@@ -79,7 +79,7 @@ You'll probably also want to replace the content of "Getting Started" & "Feature
 
   ![webpack](https://cloud.githubusercontent.com/assets/175264/8304834/d66f7944-19ec-11e5-9feb-9f66caa5c593.gif)
 
-  **Note** minified version will not be build in dev mode.
+  **Note** minified version will not be built in dev mode.
 
 
 ## Contributing
