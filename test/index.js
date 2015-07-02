@@ -1,15 +1,14 @@
 'use strict';
 
-import test from 'tape';
+import test from 'blue-tape';
 import hello from '../source/index';
 
 
-test('Tests run', (assert) => {
-  assert.pass('Tests run');
-  assert.end();
-});
+test('Tests run', (assert) => Promise.resolve(
+  assert.pass('Tests run')
+));
 
-test('Greet World', (assert) => {
-  assert.equal(hello('World'), 'Hello, World!');
-  assert.end();
-});
+
+test('Greet World', (assert) => Promise.resolve(
+  assert.equal(hello('World'), 'Hello, World!')
+));
