@@ -75,7 +75,7 @@ You'll probably also want to replace the content of "Getting Started" & "Feature
   npm start
   ```
 
-  This will run `webpack` build in watch mode and will include ESLint checks on compile time.
+  This will run the `webpack` build in watch mode and will include ESLint checks on compile time.
 
   ![webpack](https://cloud.githubusercontent.com/assets/175264/8304834/d66f7944-19ec-11e5-9feb-9f66caa5c593.gif)
 
