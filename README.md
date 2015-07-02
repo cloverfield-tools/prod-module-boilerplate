@@ -115,7 +115,7 @@ git checkout -b <your-branch-name>
 * Make sure you comply with the [.editorconfig](http://editorconfig.org/)
 
 ```
-git commit -m '[Issue #<your-issue-number>'
+git commit -m '[Issue #<your-issue-number>] <short description of change>'
 ```
 
 ### Create a Pull Request
