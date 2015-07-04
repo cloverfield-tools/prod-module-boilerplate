@@ -1,6 +1,6 @@
 'use strict';
 
-import test from 'tape';
+import test from 'blue-tape';
 import hello from '../source/index';
 
 
@@ -9,7 +9,9 @@ test('Tests run', (assert) => {
   assert.end();
 });
 
-test('Greet World', (assert) => {
+
+test('Greet World', (assert) => new Promise((resolve) => {
   assert.equal(hello('World'), 'Hello, World!');
-  assert.end();
-});
+
+  resolve();
+}));
