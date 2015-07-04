@@ -6,7 +6,7 @@
   "scripts": {
     "init": "rimraf .validate.json && rimraf .jshintrc",
     "clean": "rimraf build",
-    "lint": "eslint source && eslint test",
+    "lint": "eslint source test",
     "prebuild": "npm run clean",
     "build": "NODE_ENV=production webpack && npm run build:min",
     "build:min": "NODE_ENV=production MINIFY=1 webpack",
