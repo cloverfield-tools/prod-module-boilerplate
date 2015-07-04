@@ -10,6 +10,8 @@ test('Tests run', (assert) => {
 });
 
 
-test('Greet World', (assert) => Promise.resolve(
-  assert.equal(hello('World'), 'Hello, World!')
-));
+test('Greet World', (assert) => new Promise((resolve) => {
+  assert.equal(hello('World'), 'Hello, World!');
+
+  resolve();
+}));
