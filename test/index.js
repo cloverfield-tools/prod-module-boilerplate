@@ -15,3 +15,14 @@ test('Greet World', (assert) => new Promise((resolve) => {
 
   resolve();
 }));
+
+
+test('Should support object spread', (assert) => new Promise((resolve) => {
+  const options = {x: 1, y: 2, z: 3};
+  const {x, ...opts} = options;
+
+  assert.equal(x, 1);
+  assert.deepEqual(opts, {y: 2, z: 3});
+
+  resolve();
+}));
