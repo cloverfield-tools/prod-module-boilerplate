@@ -1,0 +1,76 @@
+# Contributing
+
+1. Getting Started
+1. [Versions](https://github.com/ericelliott/prod-module-boilerplate/blob/master/docs/contributing/versions/index.md)
+
+## Getting Started
+
+### Clone the repo
+
+* Click the GitHub fork button to create your own fork
+* Clone your fork of the repo to your dev system
+
+```
+git clone git@github.com:<your-github-username>/prod-module-boilerplate.git
+```
+
+### If there's no issue, please create one
+
+
+### Let us Know you're working on the issue
+
+If you're actively working on an issue, please comment in the issue thread stating that you're working on a fix, or (if you're an official contributor) assign it to yourself.
+
+This way, others will know they shouldn't try to work on a fix at the same time.
+
+
+### Create a feature branch:
+
+```
+git checkout -b <your-branch-name>
+```
+
+### Make your changes and commit:
+
+* Make sure you comply with the [.editorconfig](http://editorconfig.org/)
+
+```
+git commit -m '[Issue #<your-issue-number>] <short description of change>'
+```
+
+### Create a Pull Request
+
+Please don't merge your own changes. Create a pull request so others can review the changes.
+
+**Push changes:**
+
+```
+git push origin <your-feature-branch>
+```
+
+* Open your repository fork on GitHub
+* You should see a button to create a pull request - Press it
+* Consider mentioning a contributor in your pull request comments to alert them that it's available for review
+* **Wait for the reviewer to approve and merge the request**
+
+### PR Merge Exception
+
+* Minor documentation grammar/spelling fixes (code example changes should be reviewed)
+
+
+### PR Hints
+
+Reference the issue number in your commit message e.g.:
+
+```
+$ git commit -m '[#5] Make sure to follow the PR process for contributions'
+```
+
+#### For large changes spanning many commits / PRs
+
+* Create a meta-issue with a bullet list using the `* [ ] item` markdown syntax.
+* Create issues for each bullet point
+* Link to the meta-issue from each bullet point issue
+* Check off the bullet list as items get completed
+
+Linking from the bullet point issues to the meta issue will create a list of issues with status indicators in the issue comments stream, which will give us a quick visual reference to see what's done and what still needs doing.
