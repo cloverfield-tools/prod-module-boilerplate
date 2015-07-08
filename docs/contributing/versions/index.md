@@ -2,7 +2,7 @@
 
 ## Release Names
 
-Our major releases have code-names instead of version numbers, identified by the "latest" tag. The first version is "mvp". After that we pick a theme, and work through the alphabet from A to Z.
+Our major releases have code-names instead of version numbers. The current release is identified by the "latest" tag. The first version is "mvp". After that we pick a theme, and work through the alphabet from A to Z.
 
 
 ## Version Numbers
