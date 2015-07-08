@@ -1,11 +1,11 @@
-# Versions
+# Versions: Release Names vs Version Numbers
 
-## Release names
+## Release Names
 
 Our major releases have code-names instead of version numbers, identified by the "latest" tag. The first version is "mvp". After that we pick a theme, and work through the alphabet from A to Z.
 
 
-## Version numbers
+## Version Numbers
 
 [semver](), except the version roles have the semantic names, "Breaking.Feature.Fix" instead of "Major.Minor.Patch". 
 
