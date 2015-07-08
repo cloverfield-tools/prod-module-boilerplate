@@ -4,7 +4,7 @@
 
 An npm `scripts` boilerplate for modules intended for production.
 
-## TOC
+## Contents
 
 1. Features
 2. Getting Started
