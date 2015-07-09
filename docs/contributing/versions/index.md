@@ -1,9 +1,8 @@
 # Versions: Release Names vs Version Numbers
 
-1. What
-1. Why
-1. Details
-1. Examples
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## What?
 
