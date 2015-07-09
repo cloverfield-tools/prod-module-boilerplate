@@ -3,12 +3,17 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Contents
 
-- [Release Names](#release-names)
-- [Version Numbers](#version-numbers)
-  - [Breaking.Feature.Fix](#breakingfeaturefix)
-    - [Breaking](#breaking)
-    - [Feature](#feature)
-    - [Fix](#fix)
+- [What?](#what)
+- [Why?](#why)
+- [Details](#details)
+  - [Release Names (AKA code names)](#release-names-aka-code-names)
+    - [MVP](#mvp)
+  - [Version Numbers](#version-numbers)
+    - [Breaking.Feature.Fix](#breakingfeaturefix)
+      - [Breaking](#breaking)
+      - [Feature](#feature)
+      - [Fix](#fix)
+- [Examples](#examples)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
