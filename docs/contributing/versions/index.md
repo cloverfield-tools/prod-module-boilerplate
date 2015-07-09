@@ -19,7 +19,7 @@ When talking about release versions, we don't say "version Art Nouveau" we say "
 
 ### MVP
 
-MVP stands for "Minimum **Valuable** Product" (a better version of the common "Minimum Viable Product". The minimum number of features to make the product valuable to users.
+MVP stands for "Minimum **Valuable** Product" (a better version of the common "Minimum Viable Product"). The minimum number of features to make the product valuable to users.
 
 ![mvp](https://cloud.githubusercontent.com/assets/364727/8585378/4222fd84-259e-11e5-804c-33ec952ca88d.png)
 
