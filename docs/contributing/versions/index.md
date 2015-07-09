@@ -1,6 +1,6 @@
 # Versions: Release Names vs Version Numbers
 
-## Release Names
+## Release Names (AKA code names)
 
 Our major releases have code-names instead of version numbers. The current release is identified by the "latest" tag. The first version is "mvp". After that we pick a theme, and work through the alphabet from A to Z.
 
@@ -25,3 +25,21 @@ When any new feature is added. This could be as small as a new public property, 
 #### Fix
 
 When a documented feature does not behave as documented, or when a security issue is discovered and fixed without altering documented behavior.
+
+
+## FAQ
+
+### What's the difference between a release name and a version? Why do we need both?
+
+If it's time to write a blog post to inform the community about new features or important changes, we find the version we want to publicize, market it "latest", give it a human-readable name, (i.e. "MVP" or "Art Nouveau" in the case of the [JSHomes API](https://github.com/jshomes/jshomes-platform-api/blob/master/docs/contributing/versions/index.md#release-names)).
+
+That human readable release name **does not replace semver**. "MVP" might correspond to v1.6.23 or v2.2.5 -- the point is, **the numbered version has nothing to do with the named release**.
+
+The numbered version is there so npm and developers can tell whether or not a new version is a breaking change, an added feature change, or a bug / security fix.
+
+
+#### Recap
+
+Version numbers are **only** there to communicate the nature of a change: **Breaking.Feature.Fix**.
+
+Human names are there to communicate, "Hey everybody, we have a new release! Here are the new features!"
