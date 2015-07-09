@@ -1,7 +1,21 @@
 # Contributing
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Contents
 
-1. Getting Started
-1. [Versions](https://github.com/ericelliott/prod-module-boilerplate/blob/master/docs/contributing/versions/index.md)
+- [Getting Started](#getting-started)
+  - [Clone the repo](#clone-the-repo)
+  - [If there's no issue, please create one](#if-theres-no-issue-please-create-one)
+  - [Let us Know you're working on the issue](#let-us-know-youre-working-on-the-issue)
+  - [Create a feature branch:](#create-a-feature-branch)
+  - [Make your changes and commit:](#make-your-changes-and-commit)
+  - [Create a Pull Request](#create-a-pull-request)
+  - [PR Merge Exception](#pr-merge-exception)
+  - [PR Hints](#pr-hints)
+    - [For large changes spanning many commits / PRs](#for-large-changes-spanning-many-commits--prs)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+- [Versions: Release Names vs Version Numbers](versions/index.md)
 
 ## Getting Started
 

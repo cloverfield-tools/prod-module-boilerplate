@@ -1,7 +1,20 @@
 # Versions: Release Names vs Version Numbers
-
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Contents
+
+- [What?](#what)
+- [Why?](#why)
+- [Details](#details)
+  - [Release Names (AKA code names)](#release-names-aka-code-names)
+    - [MVP](#mvp)
+  - [Version Numbers](#version-numbers)
+    - [Breaking.Feature.Fix](#breakingfeaturefix)
+      - [Breaking](#breaking)
+      - [Feature](#feature)
+      - [Fix](#fix)
+- [Examples](#examples)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## What?
@@ -39,7 +52,7 @@ MVP stands for "Minimum **Valuable** Product" (a better version of the common "M
 
 ### Version Numbers
 
-[Semver](http://semver.org), except the version roles have the semantic names, "Breaking.Feature.Fix" instead of "Major.Minor.Patch". 
+[Semver](http://semver.org), except the version roles have the semantic names, "Breaking.Feature.Fix" instead of "Major.Minor.Patch".
 
 
 #### Breaking.Feature.Fix

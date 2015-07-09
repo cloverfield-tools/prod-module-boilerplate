@@ -6,11 +6,21 @@
 
 An npm `scripts` boilerplate for modules intended for production.
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Contents
 
-1. Features
-2. Getting Started
-3. [Contribting](docs/contributing/index.md)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Clone the repo](#clone-the-repo)
+  - [Customize package.json](#customize-packagejson)
+  - [Configure your CI build](#configure-your-ci-build)
+  - [Customize the README.md file](#customize-the-readmemd-file)
+  - [Build your module](#build-your-module)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+- [Contributing](docs/contributing/index.md)
+- [Versions: Release Names vs Version Numbers](docs/contributing/versions/index.md)
 
 ## Features
 

@@ -1,4 +1,8 @@
-## Contributing
+# Contributing
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Contents
 
-
-1. [Release Versions](https://github.com/ericelliott/prod-module-boilerplate/blob/master/docs/contributing/versions/index.md)
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+- [Contributing](contributing/index.md)
+- [Versions: Release Names vs Version Numbers](contributing/versions/index.md)
