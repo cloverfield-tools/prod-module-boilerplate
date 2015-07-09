@@ -4,6 +4,12 @@
 
 Our major releases have code-names instead of version numbers. The current release is identified by the "latest" tag. The first version is "mvp". After that we pick a theme, and work through the alphabet from A to Z.
 
+### MVP
+
+MVP stands for "Minimum **Valuable** Product" (a better version of the common "Minimum Viable Product".
+
+![mvp](https://cloud.githubusercontent.com/assets/364727/8585378/4222fd84-259e-11e5-804c-33ec952ca88d.png)
+
 
 ## Version Numbers
 
