@@ -26,7 +26,7 @@ MVP stands for "Minimum **Valuable** Product" (a better version of the common "M
 
 ## Version Numbers
 
-[semver](), except the version roles have the semantic names, "Breaking.Feature.Fix" instead of "Major.Minor.Patch". 
+[Semver](http://semver.org), except the version roles have the semantic names, "Breaking.Feature.Fix" instead of "Major.Minor.Patch". 
 
 
 ### Breaking.Feature.Fix
