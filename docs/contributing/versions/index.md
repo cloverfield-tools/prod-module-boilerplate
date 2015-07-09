@@ -4,6 +4,9 @@
 
 Our major releases have code-names instead of version numbers. The current release is identified by the "latest" tag. The first version is "mvp". After that we pick a theme, and work through the alphabet from A to Z.
 
+When talking about release versions, we don't say "version Art Nouveau" we say "the newest version of the JSHomes Platform API was released today, code named "Art Nouveau". Then, after that, we just refer to it as "Art Nouveau" or "latest JSHomes API version", or "JSHomes API: Art Nouveau".
+
+
 ### MVP
 
 MVP stands for "Minimum **Valuable** Product" (a better version of the common "Minimum Viable Product". The minimum number of features to make the product valuable to users.
