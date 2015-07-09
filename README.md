@@ -17,8 +17,6 @@ An npm `scripts` boilerplate for modules intended for production.
   - [Build your module](#build-your-module)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-- [Contributing](docs/contributing/index.md)
-  - [Versions: Release Names vs Version Numbers](docs/contributing/versions/index.md)
 
 ## Features
 
@@ -96,3 +94,7 @@ You'll probably also want to replace the content of "Getting Started" & "Feature
 
   **Note** minified version will not be built in dev mode.
 
+## Contributing
+
+- [Contributing](docs/contributing/index.md)
+  - [Versions: Release Names vs Version Numbers](docs/contributing/versions/index.md)
