@@ -37,7 +37,7 @@
     "blue-tape": "^0.1.9",
     "dependency-check": "^2.4.0",
     "doctoc": "^0.14.2",
-    "eslint": "^0.23.0",
+    "eslint": "^0.24.1",
     "eslint-loader": "^0.14.0",
     "faucet": "0.0.1",
     "isparta": "^3.0.3",

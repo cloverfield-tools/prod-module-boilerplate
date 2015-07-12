@@ -15,6 +15,7 @@ An npm `scripts` boilerplate for modules intended for production.
   - [Configure your CI build](#configure-your-ci-build)
   - [Customize the README.md file](#customize-the-readmemd-file)
   - [Build your module](#build-your-module)
+- [Contributing](#contributing)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

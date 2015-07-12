@@ -3,6 +3,8 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Contents
 
+- [Reporting bugs](#reporting-bugs)
+  - [Example](#example)
 - [Getting Started](#getting-started)
   - [Clone the repo](#clone-the-repo)
   - [If there's no issue, please create one](#if-theres-no-issue-please-create-one)
@@ -16,6 +18,22 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 - [Versions: Release Names vs Version Numbers](versions/index.md)
+
+## Reporting bugs
+
+Bug reports should contain the following information:
+
+* Summary: A brief description.
+* Steps to reproduce: How did you encounter the bug? Instructions to reproduce it.
+* Expected behavior: How did you expect it to behave?
+* Actual behavior: How did it actually behave?
+* Screenshot or animated gif: If possible, attach visual documentation of the bug.
+* References: Links to any related tickets or information sources.
+
+### Example
+
+Here's a [real issue](https://github.com/woothemes/woocommerce/issues/8563#issue-94518347) to demonstrate.
+
 
 ## Getting Started
 
