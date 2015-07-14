@@ -37,7 +37,7 @@ An npm `scripts` boilerplate for modules intended for production.
 In a bash terminal:
 
 ```
-git clone git@github.com:ericelliott/prod-module-boilerplate.git <your-new-repo-name>
+git clone git@github.com:cloverfield-tools/prod-module-boilerplate.git <your-new-repo-name>
 cd <your-repo-name>
 rm -rf <.git> # strip the boilerplate .git config
 git init # create your own .git config
@@ -60,7 +60,7 @@ This package comes with a `.travis.yml` file. You'll need to replace it with you
 Pop open README.md. Find this text:
 
 ```
-[![Travis-CI](https://travis-ci.org/ericelliott/prod-module-boilerplate.svg)](https://travis-ci.org/ericelliott/prod-module-boilerplate)
+[![Travis-CI](https://travis-ci.org/cloverfield-tools/prod-module-boilerplate.svg)](https://travis-ci.org/cloverfield-tools/prod-module-boilerplate)
 ```
 
 And replace it with your info:
