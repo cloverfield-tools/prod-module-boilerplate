@@ -40,7 +40,7 @@ In other words, we need two separate ways of tracking changes:
 
 Our major releases have code-names instead of version numbers. The current release is identified by the "latest" tag. The first version is "mvp". After that we pick a theme, and work through the alphabet from A to Z.
 
-When talking about release versions, we don't say "version Art Nouveau" we say "the newest version of the JSHomes Platform API was released today, code named 'Art Nouveau'". After that, we just refer to it as "Art Nouveau" or "latest JSHomes API version", or "JSHomes API: Art Nouveau". More recognizable codename examples include "Windows Vista" or "OS X Yosemite".
+When talking about release versions, we don't say "version Arty" we say "the newest version was released today, code named 'Arty'". After that, we just refer to it as "Arty" or "latest version". More recognizable codename examples include "Windows Vista" or "OS X Yosemite".
 
 
 #### MVP
