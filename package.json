@@ -30,21 +30,21 @@
     "lint"
   ],
   "devDependencies": {
-    "babel": "^5.5.8",
-    "babel-eslint": "^3.1.15",
-    "babel-loader": "^5.1.4",
-    "babel-plugin-object-assign": "^1.1.0",
-    "blue-tape": "^0.1.9",
-    "dependency-check": "^2.4.0",
+    "babel": "^5.8.21",
+    "babel-eslint": "^4.0.5",
+    "babel-loader": "^5.3.2",
+    "babel-plugin-object-assign": "^1.2.1",
+    "blue-tape": "^0.1.10",
+    "dependency-check": "^2.5.0",
     "doctoc": "^0.14.2",
-    "eslint": "^0.24.1",
-    "eslint-loader": "^0.14.0",
+    "eslint": "^1.1.0",
+    "eslint-loader": "^1.0.0",
     "faucet": "0.0.1",
     "isparta": "^3.0.3",
     "node-libs-browser": "^0.5.2",
-    "nsp": "^1.0.1",
+    "nsp": "^1.0.3",
     "precommit-hook": "^3.0.0",
-    "rimraf": "^2.4.0",
-    "webpack": "^1.9.11"
+    "rimraf": "^2.4.2",
+    "webpack": "^1.11.0"
   }
 }
