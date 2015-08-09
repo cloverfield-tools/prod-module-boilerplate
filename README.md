@@ -80,7 +80,7 @@ You'll probably also want to replace the content of "Getting Started" & "Feature
   npm run build
   ```
 
-  It will run webpack once building full and minified versions of your lirary in `./build` with sourcemaps.
+  It will run webpack once building full and minified versions of your libray in `./build` with sourcemaps.
 
 
 2. For development
