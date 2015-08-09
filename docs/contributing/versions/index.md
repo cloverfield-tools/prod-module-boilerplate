@@ -75,7 +75,7 @@ When a documented feature does not behave as documented, or when a security issu
 
 ## Examples
 
-If it's time to write a blog post to inform the community about new features or important changes, we find the version we want to publicize, tag it "latest", give it a human-readable name, (i.e. "MVP" or "Art Nouveau" in the case of the [JSHomes API](https://github.com/jshomes/jshomes-platform-api/blob/master/docs/contributing/versions/index.md#release-names)).
+If it's time to write a blog post to inform the community about new features or important changes, we find the version we want to publicize, tag it "latest", give it a human-readable name, (i.e. "MVP" or "Art Nouveau" in the case of the [JSHomes API](https://github.com/jshomes/jshomes-platform-api/blob/master/README.md#jshomes-api-)).
 
 That human readable release name **does not replace semver**. "MVP" might correspond to `v1.6.23` or `v2.2.5` -- the point is, **the numbered version has nothing to do with the named release**.
 
