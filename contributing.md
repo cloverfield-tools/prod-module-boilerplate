@@ -4,5 +4,5 @@
 ## Contents
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-- [Contributing](contributing/index.md)
-- [Versions: Release Names vs Version Numbers](contributing/versions/index.md)
+- [Contributing](docs/contributing/index.md)
+- [Versions: Release Names vs Version Numbers](docs/contributing/versions/index.md)
