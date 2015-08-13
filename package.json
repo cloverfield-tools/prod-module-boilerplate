@@ -8,8 +8,8 @@
     "clean": "rimraf build",
     "lint": "eslint source test",
     "prebuild": "npm run clean",
-    "build": "NODE_ENV=production webpack && npm run build:min && npm run build:doc",
-    "build:min": "NODE_ENV=production MINIFY=1 webpack",
+    "build": "better-npm-run script-webpack && npm run build:min && npm run build:doc",
+    "build:min": "better-npm-run script-webpack-min",
     "build:doc": "doctoc --github --title \"## Contents\" ./",
     "start": "webpack --watch",
     "test": "babel-node test/index.js",
@@ -26,6 +26,21 @@
     "precheck": "npm run validate",
     "check": "npm run audit && npm run deps && npm outdated --depth 0"
   },
+  "betterScripts": {
+    "script-webpack": {
+      "command": "webpack",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    "script-webpack-min": {
+      "command": "webpack",
+      "env": {
+        "NODE_ENV": "production",
+        "MINIFY": "1"
+     }
+    }
+  },
   "pre-commit": [
     "lint"
   ],
@@ -34,6 +49,7 @@
     "babel-eslint": "^4.0.5",
     "babel-loader": "^5.3.2",
     "babel-plugin-object-assign": "^1.2.1",
+    "better-npm-run": "0.0.1",
     "blue-tape": "^0.1.10",
     "dependency-check": "^2.5.0",
     "doctoc": "^0.14.2",
