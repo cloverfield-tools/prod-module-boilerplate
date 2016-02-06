@@ -4,6 +4,10 @@
 
 An npm `scripts` boilerplate for modules intended for production.
 
+## Status
+
+This project is no longer actively maintained, and has been replaced by the [`cf-package` Cloverfield generator](https://github.com/cloverfield-tools/cf-package).
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Contents
